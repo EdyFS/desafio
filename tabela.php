@@ -15,6 +15,7 @@ $d1 = $_POST['d1'];
 $d2 = $_POST['d2'];
 $d3 = $_POST['d3'];
 $d4 = $_POST['d4'];
+
 $pontoA = 0;
 $pontoB = 0;
 $pontoC = 0;
@@ -40,6 +41,17 @@ elseif($c1<$d1){
 else{
     $pontoC = $pontoC + 1;
     $pontoD = $pontoD + 1;
+}
+
+if($a2>$c2){
+    $pontoA = $pontoA + 3;
+}
+elseif($c2>$a2){
+    $pontoC = $pontoC + 3;
+}
+else{
+    $pontoA = $pontoA + 1;
+    $pontoC = $pontoC + 1;
 }
 
 echo $pontoA;
