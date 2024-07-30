@@ -15,6 +15,10 @@ $d1 = $_POST['d1'];
 $d2 = $_POST['d2'];
 $d3 = $_POST['d3'];
 $d4 = $_POST['d4'];
+$pontoA = 0;
+$pontoB = 0;
+$pontoC = 0;
+$pontoD = 0;
 
 if($a1>$b1){
     $pontoA = $pontoA + 3;
